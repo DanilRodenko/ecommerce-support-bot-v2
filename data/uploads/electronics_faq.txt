@@ -1,0 +1,76 @@
+# Electronics Customer Support FAQ
+
+1. Question: What is the standard warranty period for electronic devices?
+   Answer: All electronic devices, including smartphones, laptops, and tablets, come with a standard 12-month manufacturer warranty covering factory defects.
+
+2. Question: Does the smartphone package include a power adapter?
+   Answer: Due to manufacturer environmental policies, most new smartphones only include a USB-C charging cable. Power adapters must be purchased separately.
+
+3. Question: Can I extend the warranty on my purchase?
+   Answer: Yes, we offer an "Extended Care" program that adds an additional 1 or 2 years of coverage beyond the manufacturer's warranty.
+
+4. Question: Do you offer professional installation for home cinema systems?
+   Answer: Yes, we provide professional setup and calibration services for home cinema systems and Smart TVs. You can book this service during checkout.
+
+5. Question: Is it safe to leave my laptop plugged in all the time?
+   Answer: Modern laptops have battery management systems that prevent overcharging, but for long-term battery health, it is recommended to discharge it to 20% at least once a week.
+
+6. Question: How can I track my electronics delivery?
+   Answer: Once your order is shipped, you will receive an email with a tracking number and a link to our logistics partner's portal.
+
+7. Question: Are the international versions of phones compatible with local carriers?
+   Answer: International versions usually support most global bands, but we recommend checking the specific LTE/5G bands listed in the product description against your carrier’s requirements.
+
+8. Question: What should I do if my device arrives with a cracked screen?
+   Answer: Please report any physical damage within 24 hours of delivery. Keep all packaging materials and take photos of the damage for the insurance claim.
+
+9. Question: Can I trade in my old smartphone for a discount on a new one?
+   Answer: Yes, our Trade-In program allows you to bring your old device to any store for evaluation and receive a credit toward your new purchase.
+
+10. Question: Do your laptops come with pre-installed operating systems?
+    Answer: Most of our laptops come with Windows 11 Home or Pro pre-installed. Models marked "FreeDOS" or "No OS" require a separate software purchase.
+
+11. Question: What is the difference between OLED and QLED TVs?
+    Answer: OLED TVs use self-lit pixels for perfect blacks and infinite contrast, while QLED uses a quantum dot layer with a backlight for higher peak brightness.
+
+12. Question: How do I update the firmware on my wireless earbuds?
+    Answer: You need to download the official manufacturer's app on your smartphone, connect the earbuds via Bluetooth, and follow the "Firmware Update" prompts.
+
+13. Question: Is the internal storage expandable on your tablets?
+    Answer: This depends on the model. Android tablets usually have a microSD card slot, while iPads do not support expandable physical storage.
+
+14. Question: Do you sell refurbished electronics?
+    Answer: Yes, items labeled as "Refurbished" are professionally inspected, tested, and come with a limited 6-month warranty.
+
+15. Question: What is the return policy for a smart speaker if I just don't like the sound?
+    Answer: You can return a smart speaker within 14 days, provided it is in original condition with all packaging and the digital assistant has been reset.
+
+16. Question: Can I use these headphones for gaming on a console?
+    Answer: Most of our wireless headphones are compatible with consoles via a 3.5mm jack or a specific USB dongle, but standard Bluetooth may have latency issues.
+
+17. Question: Does the smart watch measure blood pressure?
+    Answer: Some high-end models offer blood pressure monitoring, but please note these are not medical-grade devices and should be used for reference only.
+
+18. Question: Are your drones ready to fly out of the box?
+    Answer: Yes, "RTF" (Ready-To-Fly) drones include the aircraft, controller, and battery. However, you may need to register the drone with local aviation authorities first.
+
+19. Question: How do I claim the manufacturer's warranty?
+    Answer: You can either contact the manufacturer's service center directly with your invoice or bring the device to our store, and we will facilitate the repair process.
+
+20. Question: Is your smart home equipment compatible with Apple HomeKit?
+    Answer: Look for the "Works with Apple HomeKit" badge on the product page. We also support Google Assistant and Amazon Alexa for most devices.
+
+21. Question: What kind of maintenance does a gaming PC require?
+    Answer: We recommend cleaning the dust filters every 3 months and performing a professional thermal paste replacement every 12-18 months.
+
+22. Question: Do you offer price matching if I find a lower price elsewhere?
+    Answer: We match prices from authorized local competitors for identical, in-stock items at the time of purchase.
+
+23. Question: Can I cancel my pre-order for a new game console?
+    Answer: You can cancel a pre-order at any time before the official release date for a full refund.
+
+24. Question: What is a "dead pixel" policy for monitors?
+    Answer: Most manufacturers allow for a small number of bright or dark pixels (usually 3-5) before the panel is considered defective under warranty.
+
+25. Question: Do you provide technical support for software issues?
+    Answer: We provide basic setup assistance. For deep software troubleshooting or specialized app support, we recommend contacting the software developer.
