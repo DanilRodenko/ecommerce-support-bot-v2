@@ -8,3 +8,4 @@ chromadb
 groq
 streamlit
 python-dotenv
+pypdf
