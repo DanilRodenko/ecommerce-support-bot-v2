@@ -1,11 +1,11 @@
-langchain
-langchain-community
-langchain-text-splitters
-langchain-chroma
-langchain-huggingface
-sentence-transformers
-chromadb
-groq
-streamlit
-python-dotenv
-pypdf
+--extra-index-url https://download.pytorch.org/whl/cpu
+groq==1.7.0
+langchain-chroma==1.1.0
+langchain-community==0.4.2
+langchain-huggingface==1.2.2
+langchain-text-splitters==1.1.2
+pypdf==6.19.0
+python-dotenv==1.2.3
+sentence-transformers==6.1.0
+streamlit==1.64.0
+torch==2.14.0
