@@ -1,40 +1,33 @@
-import os
-from groq import Groq
-from dotenv import load_dotenv
-from src.retriever import retrieve_vectorstore
+from src.retriever import retrieve
 
-load_dotenv()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+DEFAULT_MODEL = "openai/gpt-oss-120b"
+MAX_HISTORY_MESSAGES = 10  # last 5 question/answer pairs
+
+SYSTEM_PROMPT = (
+    "You are a helpful e-commerce customer support assistant. "
+    "Answer ONLY using the provided context. "
+    "If the answer is not in the context, say politely that you don't have that information."
+)
 
 
-def ask(query: str, chat_history: list = None) -> tuple[str, list]:
-    if chat_history is None:
-        chat_history = []
+def ask(query: str, vectorstore, client, model: str = DEFAULT_MODEL, chat_history=None):
+    history = list(chat_history) if chat_history else []
 
-    chunks = retrieve_vectorstore(query)
-    context = "\n\n".join([doc.page_content for doc in chunks])
+    chunks = retrieve(vectorstore, query)
+    context = "\n\n".join(doc.page_content for doc in chunks)
+    prompt = f"Context:\n{context}\n\nQuestion: {query}"
 
-    prompt = f"""
-        You are a helpful e-commerce customer support assistant.
-        Use the following information to answer the customer's questions.
-        If you don't know the answer, say so politely.        
-
-        Context: {context}
-
-        Question: {query}
-
-        Answers:"""
-
-    api_messages = chat_history + [{"role": "user", "content": prompt}]
-
-    response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
-        messages=api_messages,
+    api_messages = (
+        [{"role": "system", "content": SYSTEM_PROMPT}]
+        + history[-MAX_HISTORY_MESSAGES:]
+        + [{"role": "user", "content": prompt}]
     )
 
+    response = client.chat.completions.create(model=model, messages=api_messages)
     answer = response.choices[0].message.content
 
-    chat_history.append({"role": "user", "content": query})
-    chat_history.append({"role": "assistant", "content": answer})
+    # store the plain question, not the whole prompt with context
+    history.append({"role": "user", "content": query})
+    history.append({"role": "assistant", "content": answer})
 
-    return answer, chat_history
+    return answer, history
