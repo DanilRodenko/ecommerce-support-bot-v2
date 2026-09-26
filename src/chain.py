@@ -28,7 +28,7 @@ def ask(query: str, chat_history: list = None) -> tuple[str, list]:
     api_messages = chat_history + [{"role": "user", "content": prompt}]
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=api_messages,
     )
 
