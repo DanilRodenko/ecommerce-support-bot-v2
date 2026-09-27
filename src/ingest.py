@@ -1,16 +1,15 @@
+import uuid
+
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader, PyPDFLoader 
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.document_loaders import PyPDFLoader
 
 
 def load_file(path):
     if path.endswith('.pdf'):
         loader = PyPDFLoader(path)
     else:
-        loader = TextLoader(path)
-
+        loader = TextLoader(path, encoding="utf-8")
     return loader.load()
 
 
@@ -22,20 +21,16 @@ def split_document(documents):
     return splitter.split_documents(documents)
 
 
-def create_vectorbase(chunks):
-    embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
+def create_vectorbase(chunks, embeddings): 
     vector_store = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
-        persist_directory='data/chroma_db'
+        collection_name=f"kb_{uuid.uuid4().hex}",
     )
     return vector_store
 
 
-def process_file(path):
-    loader = load_file(path)
-    splitter = split_document(loader)
-    vector_base = create_vectorbase(splitter)
-    return vector_base
+def process_file(path, embeddings): 
+    documents = load_file(path) 
+    chunks = split_document(documents) 
+    return create_vectorbase(chunks, embeddings)
