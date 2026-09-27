@@ -1,0 +1,242 @@
+[
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "Will my t-shirt get smaller after washing?",
+    "expected": "Most cotton items are pre-shrunk; wash at 30°C and avoid high-heat drying.",
+    "keyword": "30°C",
+    "retrieval_hit": true,
+    "answer": "Most of our cotton items—including t‑shirts—are pre‑shrunk, so they shouldn’t get noticeably smaller after washing. To keep the original shape, we recommend washing them at 30 °C and avoiding high‑heat drying.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "Can I try clothes on when the courier brings them?",
+    "expected": "Yes, with branded courier delivery you get 15 minutes to try items on before paying.",
+    "keyword": "15 minutes",
+    "retrieval_hit": true,
+    "answer": "Yes! If you select our branded courier delivery, you’ll have 15 minutes to try on the items when they arrive before you complete the payment.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "Do you use American or European sizes?",
+    "expected": "Each product page has a conversion chart for US, UK and EU sizes.",
+    "keyword": "conversion chart",
+    "retrieval_hit": true,
+    "answer": "We base our sizing on international standards. On each product page you’ll find a conversion chart that shows the equivalents for US, UK and European sizes, so you can see how the measurements line up with American or European sizing.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "I placed an order 10 minutes ago, can I still change it?",
+    "expected": "Yes, orders can be modified or cancelled within 30 minutes of placement.",
+    "keyword": "30 minutes",
+    "retrieval_hit": true,
+    "answer": "Yes—you can still modify or cancel your order. Orders can be changed within 30 minutes of placement, so you’re well within that window. If you need assistance, just let us know what changes you’d like to make.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "Is there a discount for university students?",
+    "expected": "Yes, a 10% discount for students (and military) via a verification partner.",
+    "keyword": "10% discount",
+    "retrieval_hit": true,
+    "answer": "Yes—university students can receive a 10 % discount. You’ll just need to verify your student status through our partner verification service.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "I cut the tags off but never wore the item. Can I get a refund?",
+    "expected": "No full refund: items must be returned with all original tags and packaging.",
+    "keyword": "original tags",
+    "retrieval_hit": true,
+    "answer": "According to our return policy, a full refund requires the item to be returned with all original tags attached and in its original packaging. Since the tags have been removed, the item would not qualify for a full refund.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "My jacket arrived with a broken zip. What should I do?",
+    "expected": "Contact support with a photo within 48 hours of delivery for a free replacement or refund.",
+    "keyword": "48 hours",
+    "retrieval_hit": true,
+    "answer": "Please get in touch with our support team and send them a photo of the broken zip within 48 hours of delivery. They’ll arrange a free replacement or a refund for you.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "How do I know if a winter coat is warm enough?",
+    "expected": "Coats and parkas have a Warmth Rating to help choose for your climate.",
+    "keyword": "Warmth Rating",
+    "retrieval_hit": true,
+    "answer": "Yes—our winter coats and parkas come with a “Warmth Rating.” You can check this rating on the product page, which indicates the temperature range the outerwear is designed for, helping you choose a coat that’s warm enough for your local climate.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": true,
+    "question": "Is the leather on your products real?",
+    "expected": "Both genuine top-grain leather and vegan leather are offered, clearly labeled.",
+    "keyword": "vegan leather",
+    "retrieval_hit": true,
+    "answer": "We offer both genuine top‑grain leather and high‑quality vegan (synthetic) leather. Each product’s details clearly indicate which type it is, so you can see whether a particular item is made from real leather.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": false,
+    "question": "How long is the warranty on a laptop?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have information on the laptop warranty length. If you need help with that, please contact our support team directly.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": false,
+    "question": "Does a new phone come with a charger?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have information about that.",
+    "correct": true
+  },
+  {
+    "kb": "clothing",
+    "in_scope": false,
+    "question": "Can I get my TV installed at home?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have information on TV installation services.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "How long is the warranty on a laptop?",
+    "expected": "Standard 12-month manufacturer warranty covering factory defects.",
+    "keyword": "12-month",
+    "retrieval_hit": true,
+    "answer": "The warranty on a laptop is the standard 12‑month manufacturer warranty covering factory defects.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "My screen arrived cracked, what do I do?",
+    "expected": "Report within 24 hours of delivery, keep the packaging and take photos for the insurance claim.",
+    "keyword": "24 hours",
+    "retrieval_hit": true,
+    "answer": "Please report the damage within 24 hours of delivery. Keep all of the packaging materials and take photos of the cracked screen—these will be needed for the insurance claim.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "Does a new phone come with a charger?",
+    "expected": "Most new phones include only a USB-C cable; the power adapter is sold separately.",
+    "keyword": "USB-C",
+    "retrieval_hit": true,
+    "answer": "Most new smartphones are shipped with just a USB‑C charging cable. Power adapters are not included and must be purchased separately.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "Can I pay extra for a longer warranty?",
+    "expected": "Yes, the Extended Care program adds 1 or 2 extra years.",
+    "keyword": "Extended Care",
+    "retrieval_hit": true,
+    "answer": "Yes—you can pay extra for a longer warranty. We offer an **“Extended Care”** program that adds an additional 1 or 2 years of coverage beyond the manufacturer’s warranty.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "Can I get my TV installed at home?",
+    "expected": "Yes, professional setup and calibration can be booked at checkout.",
+    "keyword": "calibration",
+    "retrieval_hit": true,
+    "answer": "Yes—you can have your TV professionally installed at home. We offer setup and calibration services for home‑cinema systems and Smart TVs, and you can add the service when you check out.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "Do refurbished items come with any warranty?",
+    "expected": "Yes, refurbished items have a limited 6-month warranty.",
+    "keyword": "6-month",
+    "retrieval_hit": true,
+    "answer": "Yes—refurbished items are professionally inspected and tested, and they include a limited 6‑month warranty.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "I don't like how my smart speaker sounds. Can I send it back?",
+    "expected": "Yes, within 14 days in original condition with packaging and the assistant reset.",
+    "keyword": "14 days",
+    "retrieval_hit": true,
+    "answer": "Yes. You can return the smart speaker within 14 days, as long as it’s in its original condition with all packaging and you’ve reset the digital assistant.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "Will you beat a cheaper price I found in another shop?",
+    "expected": "They match (not beat) prices from authorized local competitors for identical in-stock items.",
+    "keyword": "match prices",
+    "retrieval_hit": true,
+    "answer": "We match prices from authorized local competitors for identical, in‑stock items at the time of purchase.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": true,
+    "question": "How many dead pixels are allowed on a new monitor?",
+    "expected": "Usually 3-5 bright or dark pixels before it counts as defective under warranty.",
+    "keyword": "3-5",
+    "retrieval_hit": true,
+    "answer": "Most manufacturers consider a monitor acceptable as long as it has only a few dead pixels—typically 3 to 5 bright or dark pixels—before it’s deemed defective under warranty.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": false,
+    "question": "Will my t-shirt get smaller after washing?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have information on that topic.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": false,
+    "question": "Can I try clothes on when the courier brings them?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have information on trying on clothes when they’re delivered.",
+    "correct": true
+  },
+  {
+    "kb": "electronics",
+    "in_scope": false,
+    "question": "Do you sell plus-size clothing?",
+    "expected": "The bot should say it does not have this information.",
+    "keyword": null,
+    "retrieval_hit": null,
+    "answer": "I’m sorry, but I don’t have that information.",
+    "correct": true
+  }
+]
